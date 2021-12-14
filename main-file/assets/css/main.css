@@ -4360,35 +4360,26 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 -----------------------------*/
 .demo__software {
   position: relative;
-  height: 1000px;
+  height: 100vh;
   overflow: hidden;
-}
-@media (max-width: 767px) {
-  .demo__software {
-    height: 100%;
-    padding-bottom: 30px;
-  }
-}
-.demo__software::before {
-  content: "";
-  background-image: url("../img/software/bg-soft.png");
+  display: flex;
+  align-items: center;
+  background-image: url("../img/fondo-slider.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+
+.demo__software::before {
+  content: "";
+  background-image: url("../img/fondo-slider.jpg");
+  background-repeat: no-repeat;
   position: absolute;
   width: 100%;
-  max-width: 1070px;
-  height: 820px;
+  height: 100%;
   top: 0;
-}
-@media (max-width: 767px) {
-  .demo__software::before {
-    background-size: cover;
-  }
-}
-@media (min-width: 768px) {
-  .demo__software::before {
-    background-size: cover;
-  }
+  background-position: bottom;
+  background-size: cover;
 }
 .demo__software .banner_title .offer {
   padding: 0.85rem 1.45rem;
@@ -4403,7 +4394,7 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   color: #22025f;
 }
 .demo__software .banner_title p {
-  color: rgba(255, 255, 255, 0.85);
+  color: black;
 }
 @media (max-width: 767px) {
   .demo__software .element_ui {
@@ -13498,7 +13489,7 @@ software_web
   content: "";
   background-color: #f7faf8;
   width: 95%;
-  height: 230px;
+  height: 100%;
   position: absolute;
   display: block;
   top: 15rem;
@@ -17480,7 +17471,7 @@ software_web
   align-items: center;
 }
 .sweep_letter .inside_item span::after {
-  content: attr(data-hover);
+  content: 'Empezar';
   position: absolute;
   top: -30px;
   left: auto;
@@ -17918,7 +17909,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 .app_smartphone .btn--app .txt h4 {
   font-weight: 400;
-  color: #ffffff;
+  color: #000;
   font-size: 18px;
   margin-top: 0.2rem;
   margin-bottom: 0;
@@ -19860,9 +19851,6 @@ html:not(.no-js) [data-aos="fade-up"] {
 /*-----------------------------
   footer_short
 -----------------------------*/
-.footer_short {
-  padding-bottom: 5rem;
-}
 .footer_short .social--media {
   margin-top: 3.75rem;
 }
@@ -20235,4 +20223,192 @@ html:not(.no-js) [data-aos="fade-up"] {
   padding-top: 340px;
 }
 
+
 /*# sourceMappingURL=main.css.map */
+
+
+
+/*# rodolfo */
+
+#telefono{
+  width: 100%;
+}
+.header__content{
+  align-items: center;
+  justify-content: center;
+  padding-top: 3rem;
+}
+@media(max-width:1024px){
+  .app_smartphone .btn--app{
+    margin-right: 0;
+  }
+}
+@media(max-width:768px){
+  .d-n-movil{
+    display: none;
+  }
+  .header__content{
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .banner_title h1{
+    font-size: 4.7rem;
+    padding-right: 9rem;
+    margin-bottom: 0.5rem;
+  }
+  .demo__software .banner_title p{
+    font-size: 1.5rem;
+    padding-right: 15rem;
+  } 
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -340px;
+    height: 560px;
+  }
+}
+@media(max-width:540px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 3.5rem;
+    margin-bottom: 0.5rem;
+    padding-right: 5rem;
+  }
+  .demo__software .banner_title p{
+    font-size: 1rem;
+    padding-right: 12rem;
+  }
+
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -235px;
+    height: 381px;
+  }
+}
+
+@media(max-width:414px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+    padding-right: 0;
+  }
+  .demo__software .banner_title p{
+    font-size: 1.1rem;
+    padding-right: 4.5rem;
+  }
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -140px;
+    height: 380px;
+  }
+}
+
+@media(max-width:411px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 3.2rem;
+    margin-bottom: .5rem;
+    padding-right: 0;
+  }
+  .demo__software .banner_title p{
+    font-size: 1.1rem;
+    padding-right: 4.5rem;
+  }
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -140px;
+    height: 380px;
+  }
+}
+@media(max-width:375px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 2.8rem;
+    margin-bottom: .5rem;
+    padding-right: 0;
+  }
+  .demo__software .banner_title p{
+    font-size: 1rem;
+    padding-right: 4.5rem;
+  }
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -140px;
+    height: 320px;
+  }
+}
+@media(max-width:360px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 2.7rem;
+    margin-bottom: .5rem;
+    padding-right: 0;
+  }
+  .demo__software .banner_title p{
+    font-size: .8rem;
+    padding-right: 4.5rem;
+  }
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -140px;
+    height: 320px;
+  }
+}
+@media(max-width:320px){
+  .d-n-movil{
+    display: none;
+  }
+  .banner_title h1{
+    font-size: 2.3rem;
+    margin-bottom: .5rem;
+    padding-right: 0;
+  }
+  .demo__software .banner_title p{
+    font-size: .8rem;
+    padding-right: 4.5rem;
+  }
+
+  .demo_1 .container-fluid{
+    height: 100vh;
+  }
+  #telefono {
+    width: 100%;
+    position: absolute;
+    right: -140px;
+    height: 280px;
+  }
+}
