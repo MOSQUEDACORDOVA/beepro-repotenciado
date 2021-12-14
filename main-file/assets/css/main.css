@@ -17909,7 +17909,14 @@ html:not(.no-js) [data-aos="fade-up"] {
 }
 .app_smartphone .btn--app .txt h4 {
   font-weight: 400;
-  color: #000;
+  color: black;
+  font-size: 18px;
+  margin-top: 0.2rem;
+  margin-bottom: 0;
+}
+.defalut-footer .app_smartphone .btn--app .txt h4 {
+  font-weight: 400;
+  color: white;
   font-size: 18px;
   margin-top: 0.2rem;
   margin-bottom: 0;
