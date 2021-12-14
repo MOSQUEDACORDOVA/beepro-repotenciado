@@ -20239,6 +20239,10 @@ html:not(.no-js) [data-aos="fade-up"] {
 
 #telefono{
   width: 100%;
+  min-width: 600px;
+  left: 25%;
+  position: absolute;
+  height: auto;
 }
 @media(max-width:1024px){
   .app_smartphone .btn--app{
@@ -20257,6 +20261,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 4.7rem;
     padding-right: 9rem;
     margin-bottom: 0.5rem;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: 1.5rem;
@@ -20264,12 +20269,6 @@ html:not(.no-js) [data-aos="fade-up"] {
   } 
   .demo_1 .container{
     height: calc(100vh - 65px);
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -340px;
-    height: 560px;
   }
 }
 @media(max-width:540px){
@@ -20280,6 +20279,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 3.5rem;
     margin-bottom: 0.5rem;
     padding-right: 5rem;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: 1rem;
@@ -20288,12 +20288,6 @@ html:not(.no-js) [data-aos="fade-up"] {
 
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -235px;
-    height: 381px;
   }
 }
 
@@ -20305,6 +20299,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 3.2rem;
     margin-bottom: .5rem;
     padding-right: 0;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: 1.1rem;
@@ -20312,12 +20307,6 @@ html:not(.no-js) [data-aos="fade-up"] {
   }
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -140px;
-    height: 380px;
   }
 }
 
@@ -20329,6 +20318,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 3.2rem;
     margin-bottom: .5rem;
     padding-right: 0;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: 1.1rem;
@@ -20336,12 +20326,6 @@ html:not(.no-js) [data-aos="fade-up"] {
   }
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -140px;
-    height: 380px;
   }
 }
 @media(max-width:375px){
@@ -20352,6 +20336,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 2.8rem;
     margin-bottom: .5rem;
     padding-right: 0;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: 1rem;
@@ -20359,12 +20344,6 @@ html:not(.no-js) [data-aos="fade-up"] {
   }
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -140px;
-    height: 320px;
   }
 }
 @media(max-width:360px){
@@ -20375,6 +20354,7 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 2.7rem;
     margin-bottom: .5rem;
     padding-right: 0;
+    padding-top: 30px;
   }
   .demo__software .banner_title p{
     font-size: .8rem;
@@ -20382,12 +20362,6 @@ html:not(.no-js) [data-aos="fade-up"] {
   }
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -140px;
-    height: 320px;
   }
 }
 @media(max-width:320px){
@@ -20406,11 +20380,5 @@ html:not(.no-js) [data-aos="fade-up"] {
 
   .demo_1 .container-fluid{
     height: 100vh;
-  }
-  #telefono {
-    width: 100%;
-    position: absolute;
-    right: -140px;
-    height: 280px;
   }
 }
