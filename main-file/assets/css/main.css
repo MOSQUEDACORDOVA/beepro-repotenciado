@@ -20240,11 +20240,6 @@ html:not(.no-js) [data-aos="fade-up"] {
 #telefono{
   width: 100%;
 }
-.header__content{
-  align-items: center;
-  justify-content: center;
-  padding-top: 3rem;
-}
 @media(max-width:1024px){
   .app_smartphone .btn--app{
     margin-right: 0;
@@ -20267,8 +20262,8 @@ html:not(.no-js) [data-aos="fade-up"] {
     font-size: 1.5rem;
     padding-right: 15rem;
   } 
-  .demo_1 .container-fluid{
-    height: 100vh;
+  .demo_1 .container{
+    height: calc(100vh - 65px);
   }
   #telefono {
     width: 100%;
