@@ -20236,8 +20236,9 @@ html:not(.no-js) [data-aos="fade-up"] {
 
 
 /*# rodolfo */
-.banner_title span{
+.banner_title span {
   color: #39b54a !important;
+  font-weight: bold;
 }
 #telefono{
   width: 100%;
