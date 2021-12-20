@@ -20392,3 +20392,10 @@ html:not(.no-js) [data-aos="fade-up"] {
   margin-right: 12px;
   border-radius: 4px;
 }
+.title_section_logo{
+  font-size: 1.875rem;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  color: #081A0B;
+  margin-bottom: 2.5rem;
+}
