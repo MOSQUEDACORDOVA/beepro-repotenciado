@@ -8505,7 +8505,7 @@ software_web
 .software_web .screen__ipad {
   margin-right: -80%;
   position: relative;
-  height: 800px;
+  height: 600px;
 }
 @media (max-width: 767px) {
   .software_web .screen__ipad {
@@ -8519,7 +8519,7 @@ software_web
 }
 .software_web .screen__ipad .ipad_img {
   width: 100%;
-  height: 640px;
+  height: 540px;
   object-fit: contain;
 }
 @media (max-width: 991px) {
