@@ -3570,8 +3570,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   color: #ffffff;
 }
 .header_software .btn_demo3 .btn {
-  background-color: rgba(58, 177, 75, 0.1);
-  color: #39b54a;
+  background-color: rgba(0, 0, 0);
+  color: #fff;
   border: 0 !important;
 }
 
@@ -8491,10 +8491,10 @@ software_web
   overflow: hidden;
 }
 .software_web .item__section .icon_sec {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   border-radius: 12px;
-  background-color: #39b54a;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12098,7 +12098,7 @@ software_web
   font-size: 16px;
   font-weight: 400;
   color: #9da6af;
-  margin-top: 1rem;
+  margin-top: 0;
   margin-bottom: 0;
 }
 .tabs_works .nav-pills .nav-link.active {
