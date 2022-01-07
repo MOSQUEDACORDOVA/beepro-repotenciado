@@ -5804,16 +5804,16 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   margin-bottom: 1.875rem !important;
 }
 .sevice_block .icon--top img {
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
 }
 
 /*-----------------------------
   support_item
 -----------------------------*/
 .support_item .items_serv .icon--top {
-  width: 60px;
-  height: 60px;
+  width: 150px;
+  height: 1px;
   background-color: rgba(253, 107, 59, 0.07);
   display: flex;
   text-align: center;
@@ -5835,8 +5835,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .gsb_serv_ig .items_serv .icon--top img {
   position: relative;
-  width: 50px;
-  height: 50px;
+  width: 150px;
+  height: 150px;
   z-index: 1;
 }
 .gsb_serv_ig .items_serv .icon--top:before {
@@ -6067,8 +6067,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 .hosting_service .items_serv .icon--top {
   background-color: rgba(22, 93, 245, 0.1);
   border-radius: 20px;
-  width: 60px;
-  height: 60px;
+  width: 100px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6260,8 +6260,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border-radius: 12px;
 }
 .save__nature .item__nature .items_serv .icon--top svg {
@@ -6276,8 +6276,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: absolute;
   top: -10px;
   right: -10px;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   border-radius: 12px;
 }
 .save__nature .item__nature .items_serv .btn__link {
