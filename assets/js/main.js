@@ -437,7 +437,7 @@
       minSlides: 1,
       maxSlides: 8,
       slideWidth: 160,
-      slideMargin: 0,
+      slideMargin: 10,
       ticker: true,
       speed: 20000
     });
