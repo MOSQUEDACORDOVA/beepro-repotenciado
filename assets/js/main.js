@@ -435,8 +435,8 @@
     -----------------------------*/
     $('.bxslider').bxSlider({
       minSlides: 1,
-      maxSlides: 8,
-      slideWidth: 160,
+      maxSlides: 1,
+      slideWidth: 100000,
       slideMargin: 10,
       ticker: true,
       speed: 20000

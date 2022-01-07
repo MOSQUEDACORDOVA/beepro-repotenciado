@@ -86,11 +86,12 @@
                 </li>
 
               </ul>
-              <div class="nav_account btn_demo3">
-                <button type="button" data-toggle="modal" data-target="#mdllLogin" class="btn btn_sm_primary opacity-1 sweep_letter scale sweep_top rounded-8">
-                  <div class="inside_item">
-                    <span data-hover="Hello !">Mi Cuenta</span>
-                  </div>
+              <div class="nav_account">
+                <button type="button" data-toggle="modal" data-target="#mdllLogin" class="d-none d-md-block btn scale btn_lg_primary bg-black c-white effect-letter rounded-8">
+                  Mi Cuenta
+                </button>
+                <button type="button" data-toggle="modal" data-target="#mdllLogin-movil" class="d-md-none d-lg-none scale btn_lg_primary bg-black c-white effect-letter rounded-8">
+                  Mi Cuenta
                 </button>
               </div>              
             </div>
@@ -245,35 +246,7 @@
                 </h2>
                 <div class="wrapper_logos">
                   <div class="items bxslider">
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/logo-andina.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/correos-chile-logo.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/cial-alimentos.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/Logo_DuocUC.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/teleton.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/grupo-norte.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/club-de-golf.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/mersan.png" alt="" />
-                    </a>
-                    <a class="item-client" href="#">
-                      <img src="assets/img/carrusel-de-logos/brenntag.png" alt="" />
-                    </a>
-                  </div>
-                  <div class="logos_masks"></div>
+                      <img src="assets/img/carrusel-de-logos/logos.png" alt="" />
                 </div>
               </div>
             </div>
@@ -1345,58 +1318,56 @@
     <div class="modal mdllaccount fade bd-example-modal-lg" id="mdllLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
 
-          <div class="box--signup"> 
-            <div class="cotainer">
-              
-            <div class="title">
-              Mi Cuenta
-            </div>
-
-
-          <div class="tab-pane fade show active" id="pills-create" role="tabpanel" aria-labelledby="pills-create-tab">
-            <div class="form-row">
-              <div class="col-12">
-                <div class="row">
-
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <label>Correo</label>
-                      <input type="email" class="form-control" placeholder="Correo" />
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="form-group --password" id="show_hide_password">
-                      <label>Password</label>
-                      <div class="input-group">
-                        <input type="password" class="form-control" data-toggle="password" placeholder="••••••"
-                          required="" />
-                        <div class="input-group-prepend hide_show">
-                          <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
+        <div class="box--signup">
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <i class="tio clear"></i>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="form_account">
+                  <div class="form-row">
+                    <div class="col-12">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="form-group">
+                            <label>Correo / Teléfono / Rut</label>
+                            <input type="email" class="form-control" placeholder="Correo / Teléfono / Rut" />
+                          </div>
+                        </div>
+                        <div class="col-md-12">
+                          <div class="form-group mb-1 --password" id="show_hide_password">
+                            <label>Contraseña</label>
+                            <div class="input-group">
+                              <input type="password" class="form-control" data-toggle="password" placeholder="••••••"
+                                required="" />
+                              <div class="input-group-prepend hide_show">
+                                <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
+                              </div>
+                            </div>
+                          </div>
+    
+                          <a href="https://sistema.beepro.cl/recuperar-contrase%C3%B1a" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">¿Olvidó su contraseña?</a>
+                        </div>
+                        <div class="col-12 mt-4">
+                          <a href="#" class="btn rounded-6 btn_xl_primary btn_login bg-green2">Ingresar</a>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div class="col-12 terms">
-                    <p>                   
-                      <a href="https://sistema.beepro.cl/recuperar-contrase%C3%B1a" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">¿Olvidó su contraseña?</a>
-                    </p>
-                  </div>
-                  <div class="col-12">
-                    <a href="" class="btn mt-3 rounded-8 c-white btn_md_primary effect-letter bg-blue">Ingresar</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-            </div>
-          </div>
+        </div>
       
     </div>
 
-    <!-- Login Modal  login viejo 
-    <div class="modal mdllaccount fade" id="mdllLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+
+    <!-- Login Modal  login Movil -->
+    <div class="modal mdllaccount fade" id="mdllLogin-movil" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -1441,9 +1412,9 @@
         </div>
       </div>
     </div>
-     End. Modal login viejo -->
+     End. Modal login viejo 
 
-    <!-- Login Modal Contacto -->
+    <!-- Modal Contacto -->
     <div class="modal fade" id="mdConctacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog modal-lg">
@@ -1472,19 +1443,6 @@
                         <input type="text" class="form-control" placeholder="Nombre completo" />
                       </div>
                     </div>
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label>Dirección</label>
-                        <input type="text" class="form-control" placeholder="Dirección" />
-                      </div>
-                    </div>
-
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label>Correo electrónico</label>
-                        <input type="email" class="form-control" placeholder="tucorreo@ejemplo.com" />
-                      </div>
-                    </div>
 
                     <div class="col-md-6">
                       <div class="form-group">
@@ -1492,11 +1450,11 @@
                         <input type="text" class="form-control" placeholder="Teléfono" />
                       </div>
                     </div>
-
+                    
                     <div class="col-12">
                       <div class="form-group">
-                        <label>Rut</label>
-                        <input type="text" class="form-control" placeholder="Rut" />
+                        <label>Correo electrónico</label>
+                        <input type="email" class="form-control" placeholder="tucorreo@ejemplo.com" />
                       </div>
                     </div>
                   </div>
@@ -1510,19 +1468,19 @@
                   </div>
 
                   <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-lg-4">
                       <div class="form-group">
-                        <label>Dirección de la entidad</label>
-                        <input type="text" class="form-control" placeholder="Dirección de la entidad" />
+                        <label>RUT</label>
+                        <input type="text" class="form-control" placeholder="RUT" />
                       </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-lg-4">
                       <div class="form-group">
                         <label>Datos de la entidad</label>
-                        <input type="text" class="form-control" placeholder="Datos de la entidad" />
+                        <input type="text" class="form-control" placeholder="Nombre de la Empresa" />
                       </div>
                     </div>
-                    <div class="col-12 mt-4">
+                    <div class="col-lg-4 mt-4 text-center" style="margin-top: 5px;">
                       <a href="#" class="btn rounded-6 btn_xl_primary btn_login bg-green2">Enviar</a>
                     </div>
                   </div>
