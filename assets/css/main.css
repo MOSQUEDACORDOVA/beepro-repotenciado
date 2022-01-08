@@ -17936,7 +17936,7 @@ html:not(.no-js) [data-aos="fade-up"] {
 -----------------------------*/
 .app_smartphone .btn--app {
   display: inline-block;
-  margin-right: 1.5rem;
+  margin-right: 0.5rem;
 }
 .app_smartphone .btn--app .icon {
   border-radius: 20px;
