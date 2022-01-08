@@ -27,7 +27,7 @@ template.
   }
 }
 .slider {
-  height: 75px;
+  height: 50px;
   margin: auto;
   overflow: hidden;
   position: relative;
@@ -35,7 +35,7 @@ template.
 .slider::before, .slider::after {
   background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
   content: "";
-  height: 100px;
+  height: 50px;
   position: absolute;
   width: 200px;
   z-index: 2;
@@ -56,7 +56,7 @@ template.
   width: calc(250px * 14);
 }
 .slider .slide {
-  height: 100px;
+  height: 50px;
   width: 250px;
 }
 
@@ -5804,8 +5804,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   margin-bottom: 1.875rem !important;
 }
 .sevice_block .icon--top img {
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 /*-----------------------------
@@ -5835,8 +5835,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .gsb_serv_ig .items_serv .icon--top img {
   position: relative;
-  width: 150px;
-  height: 150px;
+  width: 60px;
+  height: 60px;
   z-index: 1;
 }
 .gsb_serv_ig .items_serv .icon--top:before {
@@ -6067,8 +6067,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 .hosting_service .items_serv .icon--top {
   background-color: rgba(22, 93, 245, 0.1);
   border-radius: 20px;
-  width: 100px;
-  height: 100px;
+  width: 60px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6260,8 +6260,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   border-radius: 12px;
 }
 .save__nature .item__nature .items_serv .icon--top svg {
@@ -6276,8 +6276,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: absolute;
   top: -10px;
   right: -10px;
-  width: 120px;
-  height: 120px;
+  width: 70px;
+  height: 70px;
   border-radius: 12px;
 }
 .save__nature .item__nature .items_serv .btn__link {
