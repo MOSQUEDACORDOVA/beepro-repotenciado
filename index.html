@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es_PE">
 
 <head>
   <meta charset="UTF-8" />
@@ -31,6 +31,10 @@
   <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
   <!-- normalize -->
   <link rel="stylesheet" href="assets/css/normalize.css" type="text/css" />
+  <!-- carrusel -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" />
+
   <!-- Validacion de formulario -->
   <link rel="stylesheet" href="assets/css/formulario.css" type="text/css" />
 
@@ -46,12 +50,12 @@
   <div id="wrapper">
     <div id="content">
 
-      <!-- Start Menu -->
+      <!-- Menu -->
       <header class="header-nav-center no_blur header__workspace header_software active-green2" id="myNavbar">
         <div class="container">
           <!-- navbar -->
           <nav class="navbar navbar-expand-lg navbar-light px-sm-0">
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="#home">
               <img class="logo" src="assets/img/logo.svg" alt="logo" />
             </a>
 
@@ -89,12 +93,10 @@
 
               </ul>
               <div class="nav_account">
-                <button type="button" data-toggle="modal" data-target="#mdllLogin" class="d-none d-md-block btn rounded-6 c-white btn_xl_primary btn_login bg-green2">
+                <a class="btn rounded-6 c-white btn_xl_primary btn_login bg-green2" href="https://sistema.beepro.cl/login">
                   Mi Cuenta
-                </button>
-                <button type="button" data-toggle="modal" data-target="#mdllLogin-movil" class="d-md-none d-lg-none btn rounded-6 c-white btn_xl_primary btn_login bg-green2">
-                  Mi Cuenta
-                </button>
+                </a>
+
               </div>              
             </div>
           </nav>
@@ -104,10 +106,10 @@
       </header>
       <!-- End Menu -->
 
-      <!-- Stat main -->
+      <!-- Main -->
       <main data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <!-- Start Banner Section -->
-        <section class="demo_1 demo__software" id="About">
+        <!-- Banner de inicio Section ¿Que?-->
+        <section class="demo_1 demo__software" id="home">
           <div class="container">
             <div class="row">
               <div class="col-lg-5">
@@ -116,8 +118,9 @@
                     El <span>control</span> de <span>visitas</span> nunca fue tan <span>fácil</span>
                   </h1>
                   <p>
-                    Escanear documentos de identidad o autorizar visitas ¡con tu celular! 
-                    <em>lo tenemos todo cubierto. . .</em>
+                    Un sistema que permite cubrir tus necesidades y cuidar tus intereses. 
+                    Residencial, Comercial, Industrial... <br> 
+                    <em> ¡Lo tenemos cubierto!</em>
                   </p>
 
                   <div class="app_smartphone d-n-movil">
@@ -144,135 +147,213 @@
             </div>
           </div>
         </section>
-        <!-- End Banner -->
+        <!-- End Banner de inicio -->
 
-        <!-- Start Beneficios -->
-        <section class="services_section save__nature serv_soft mt-5 pt-5 pb-4" id="beneficios">
+        <!-- Resumen demostrativo ¿Como? -->
+        <section class="services_section padding-t-12" id="Services" style="padding-bottom: 60px;">
+                  <div class="container">
+                    <div class="row justify-content-md-center">
+                      <div class="col-md-8 col-lg-6 text-center">
+                        <div class="title_sections">
+                          <div class="before_title">
+                            <span>Simple, Robusto & </span>
+                            <span>Eficiente</span>
+                          </div>
+                          <h2>Gestiona tu acceso aplicando Tecnología</h2>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="items_serv" data-aos="fade-up" data-aos-delay="0">
+                          <div class="media">
+                            <div class="item-img">
+                              <img src="assets/img/bombilla.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                              <div class="txt-small">
+                                <span>Paso 1</span>
+                              </div>
+                              <h3>Obtén los datos</h3>
+                              <p>
+                                Los datos son escaneados automáticamente. 
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="items_serv" data-aos="fade-up" data-aos-delay="100">
+                          <div class="media">
+                            <div class="item-img">
+                              <img src="assets/img/nube.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                              <div class="txt-small">
+                                <span>Paso 2</span>
+                              </div>
+                              <h3>Procesamiento con I.A.</h3>
+                              <p>
+                                La información se valida en tiempo real.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="items_serv" data-aos="fade-up" data-aos-delay="200">
+                          <div class="media">
+                            <div class="item-img">
+                              <img src="assets/img/shield.png" alt="" />
+                            </div>
+                            <div class="media-body">
+                              <div class="txt-small">
+                                <span>Paso 3</span>
+                              </div>
+                              <h3>Autorización</h3>
+                              <p>
+                                Autoriza o deniega el acceso rápidamente.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        </section>
+        <!-- End Resumen demostrativo ¿Como? -->
+
+        <!-- Start Section Products ¿Por que lo hacemos? -->
+        <section class="products_section product_demo3 padding-t-12" id="beneficios">
           <div class="container">
             <div class="row">
-              <div class="col-md-4 item__nature">
-                <div class="items_serv sevice_block mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-                    <div class="icon--top">
-                      <img src="assets/img/nube.png" alt="">
-                    </div>
-                    <div class="txt">
-                      <h3>Robusto</h3>
-                      <p>
-                        Sistema de respaldo altamente confiable.
-                      </p>
-                    </div>
-                </div>
-              </div>
-              <div class="col-md-4 item__nature">
-                <div class="items_serv sevice_block mb-4 mb-lg-0 " data-aos="fade-up" data-aos-delay="100">
-                    <div class="icon--top">
-                      <img src="assets/img/bombilla.png" alt="">
-                    </div>
-                    <div class="txt">
-                      <h3>Simple</h3>
-                      <p>
-                        Con una interfaz amigable y practica.
-                      </p>
-                    </div>
-                </div>
-              </div>
-              <div class="col-md-4 item__nature">
-                <div class="items_serv sevice_block mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-                    <div class="icon--top">
-                      <img src="assets/img/shield.png" alt="">
-                    </div>
-                    <div class="txt">
-                      <h3>Eficiente</h3>
-                      <p>
-                        Adaptable a tus necesidades y flujo de trabajo.
-                      </p>
-                    </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-        <!-- End. Beneficios -->
-
-        <!-- Start logos Clientes  -->
-        <section class="logos_section pt-5 pb-5 text-center" id="clientes">
-          <div class="container">
-            <div class="row justify-content-md-center">
-              <div class="col-md-10">
-                <h2 class="title_section_logo">
-                  Ellos confían en nosotros:
-                </h2>
-                
-                <div class="slider">
-                  <div class="slide-track">
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/logo-andina.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/cocacola.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/cial-alimentos.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/Logo_DuocUC.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/teleton.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/grupo-norte.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/club-de-golf.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/mersan.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/brenntag.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/cial-alimentos.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/logo-andina.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/cocacola.png " height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/Logo_DuocUC.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/teleton.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/grupo-norte.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/club-de-golf.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/mersan.png" height="45"  alt="" />
-                    </div>
-                    <div class="slide">
-                      <img src="assets/img/carrusel-de-logos/brenntag.png" height="45"  alt="" />
-                    </div>
-                   
+              <div class="col-md-8 col-lg-5 margin-b-3">
+                <div class="title_sections margin-b-4">
+                  <div class="before_title">
+                    <span>Tu Seguridad</span>
+                    <span class="c-green"> ¡Nos importa!</span>
                   </div>
-
+                  <h2 class="c-dark">
+                    Te brindamos Soporte, Apoyo técnico y Capacitación permanente.
+                  </h2>
+                </div>
+              
+                <img class="d-sm-none d-lg-block" src="assets/img/tecno.png" width="100%" />
+              </div>
+              <div class="col-lg-6 ml-sm-auto" style="padding-top: 50px;">
+                <div class="row">
+                  <div class="col-md-6 margin-b-5">
+                    <div class="item_pro" data-aos="fade-up" data-aos-delay="0">
+                      <img src="assets/img/lista-blanca.png" width="40%"/>
+                      <h3>Lista blanca</h3>
+                      <p>Brinda acceso permanente para un ingreso expedito.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 margin-b-5">
+                    <div class="item_pro" data-aos="fade-up" data-aos-delay="100">
+                      <img src="assets/img/lista-negra.png" width="40%"/>
+                      <h3>Lista negra</h3>
+                      <p>Genera alerta de prohibición para impedir acceso.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 margin-b-5">
+                    <div class="item_pro" data-aos="fade-up" data-aos-delay="200">
+                      <img src="assets/img/invitaciones.png" width="40%"/>
+                      <h3>Invitaciones</h3>
+                      <p>Crea Tickets de invitación para un ingreso puntual.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6 margin-b-5">
+                    <div class="item_pro" data-aos="fade-up" data-aos-delay="200">
+                      <img src="assets/img/notificaciones.png" width="40%"/>
+                      <h3>Notificaciones</h3>
+                      <p>Recibe notificaciones Push y eMail simultáneamente.</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- .container -->
         </section>
-        <!-- End logos Clientes -->
+        <!-- End Section Products -->
 
+        <!-- Logo Clientes que nos recomiendan ¡Validacion!
+        <section class="logos_section pt-5 pb-5 text-center" id="clientes">
+                <div class="container">
+                  <div class="row justify-content-md-center">
+                    <div class="col-md-10">
+                      <h2 class="title_section_logo">
+                        Ellos ya están usando nuestros servicios
+                      </h2>
+                      
+                      <div class="slider">
+                        <div class="slide-track">
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/logo-andina.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/cocacola.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/cial-alimentos.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/Logo_DuocUC.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/teleton.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/grupo-norte.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/club-de-golf.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/mersan.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/brenntag.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/cial-alimentos.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/logo-andina.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/cocacola.png " height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/Logo_DuocUC.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/teleton.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/grupo-norte.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/club-de-golf.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/mersan.png" height="45"  alt="" />
+                          </div>
+                          <div class="slide">
+                            <img src="assets/img/carrusel-de-logos/brenntag.png" height="45"  alt="" />
+                          </div>
+                         
+                        </div>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div>
+        </section>
+         End Logo Clientes que nos recomiendan-->  
 
-
-        <!-- Start BeeScan Servicio -->
+        <!-- BeeScan Servicio -->
         <section class="software_web feature__app item__right margin-t-10" id="beescan">
           <div class="container">
             <div class="row">
@@ -289,7 +370,7 @@
                         <h2><span>Bee</span><span class="c-green2">Scan</span></h2>
                         <h4>Escribir es cosa del pasado</h4>
                         <p>
-                          Te presentamos una tecnología nativa, desarrollada por nosotros para optimizar el registro de los datos personales de los visitantes, que necesiten acceso a cualquier área de tu empresa y te permite disfrutar de los siguientes beneficios:
+                          Con BeeScan podrás controlar a las personas que ingresan capturando información con la cámara del dispositivo. 
                         </p>
                         <ul class="list-group item__list">
                           <li class="list-group-item border-0">
@@ -307,7 +388,7 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Una APP fácil de usar
+                                Interfaz amigable al usuario
                               </div>
                             </div>
 
@@ -327,7 +408,7 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Escanear los datos de la identificación con la cámara de cualquier teléfono
+                                Escanea con el celular
                               </div>
                             </div>
                           </li>
@@ -346,7 +427,26 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Reducir tiempos en la portería y optimizar las autorizaciones.
+                                Registra datos de destino
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item border-0">
+                            <div class="media">
+                              <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="13.434" height="17.033"
+                                viewBox="0 0 13.434 17.033">
+                                <g id="Group_6280" data-name="Group 6280" transform="translate(-3.358 -2.129)">
+                                  <path id="Path-50"
+                                    d="M4,3.765l6.408-1.2a1.679,1.679,0,0,1,.619,0l6.408,1.2v7.794a7.146,7.146,0,0,1-3.359,6.06L11.162,19.44a.84.84,0,0,1-.89,0L7.359,17.619A7.146,7.146,0,0,1,4,11.559Z"
+                                    transform="translate(-0.642 -0.406)" fill="#39b54a" fill-rule="evenodd"
+                                    opacity="0.3" />
+                                  <path id="check-path"
+                                    d="M10.714,13.828a.794.794,0,0,1-.563-.241L8.541,11.977a.8.8,0,1,1,1.127-1.127L10.714,11.9l2.655-2.655A.8.8,0,0,1,14.5,10.368l-3.219,3.219A.794.794,0,0,1,10.714,13.828Z"
+                                    transform="translate(-1.331 -1.443)" fill="#39b54a" fill-rule="evenodd" />
+                                </g>
+                              </svg>
+                              <div class="media-body">
+                                Optimiza autorizaciones 
                               </div>
                             </div>
                           </li>
@@ -383,7 +483,7 @@
         </section>
         <!-- End.BeeScan Servicio -->
 
-        <!-- Start BeePass Servicio -->
+        <!-- BeePass Servicio -->
         <section class="software_web feature__app margin-t-15" id="beepass">
           <div class="container">
             <div class="row">
@@ -412,9 +512,9 @@
                     <div class="media-body">
                       <div class="title_sections mb-0">
                         <h2><span>Bee</span><span class="c-green2">Pass</span></h2>
-                        <h4>Autoriza el acceso con un toque</h4>
+                        <h4>Gestiona invitaciones y más.</h4>
                         <p>
-                          Otra herramienta desarrollada por nuestro equipo de expertos que convierte a los correos y las llamadas en cosa del pasado, remplazando este sistema poco eficiente e inoportuno, por una APP que permite a los responsables de cada área lo siguiente:                        </p>
+                          Con BeePass podrás gestionar tu acceso de manera autónoma, donde y cuando lo necesites.  </p>
                         <ul class="list-group item__list">
                           <li class="list-group-item border-0">
                             <div class="media">
@@ -431,7 +531,26 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Conocer los datos al instante de la persona que solicita el acceso.
+                                Crea invitaciones.
+                              </div>
+                            </div>
+                          </li>
+                          <li class="list-group-item border-0">
+                            <div class="media">
+                              <svg class="mr-2" xmlns="http://www.w3.org/2000/svg" width="13.434" height="17.033"
+                                viewBox="0 0 13.434 17.033">
+                                <g id="Group_6280" data-name="Group 6280" transform="translate(-3.358 -2.129)">
+                                  <path id="Path-50"
+                                    d="M4,3.765l6.408-1.2a1.679,1.679,0,0,1,.619,0l6.408,1.2v7.794a7.146,7.146,0,0,1-3.359,6.06L11.162,19.44a.84.84,0,0,1-.89,0L7.359,17.619A7.146,7.146,0,0,1,4,11.559Z"
+                                    transform="translate(-0.642 -0.406)" fill="#39b54a" fill-rule="evenodd"
+                                    opacity="0.3" />
+                                  <path id="check-path"
+                                    d="M10.714,13.828a.794.794,0,0,1-.563-.241L8.541,11.977a.8.8,0,1,1,1.127-1.127L10.714,11.9l2.655-2.655A.8.8,0,0,1,14.5,10.368l-3.219,3.219A.794.794,0,0,1,10.714,13.828Z"
+                                    transform="translate(-1.331 -1.443)" fill="#39b54a" fill-rule="evenodd" />
+                                </g>
+                              </svg>
+                              <div class="media-body">
+                                Apertura de puertas
                               </div>
                             </div>
 
@@ -451,7 +570,7 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Poder autorizar la entrada con un solo toque.
+                                Notificaciones Push
                               </div>
                             </div>
                           </li>
@@ -470,7 +589,7 @@
                                 </g>
                               </svg>
                               <div class="media-body">
-                                Esperando contenido.
+                                Historial de visitas
                               </div>
                             </div>
                           </li>  
@@ -500,7 +619,7 @@
         </section>
         <!-- End.BeePass Servicio -->
 
-        <!-- Start Dashboard BeePro -->
+        <!-- Dashboard BeePro -->
         <section class="software_web margin-t-12" id="beepro">
           <div class="container">
             <div class="row">
@@ -518,7 +637,7 @@
                           <span>Bee</span><span class="c-green2">Pro</span></h2>
                         <h4>Central de Administración</h4>
                         <p>
-                          Nuestro equipo de Profesionales han desarrollado <span class="c-green2">un sistema robusto</span> para garantizar la seguridad de nuestros clientes, <span class="c-green2">simple</span> para facilitar su uso de los operadores, <span class="c-green2">y eficiente</span> al optimizar la consulta y administración de los datos.
+                          Hemos desarrollado un sistema simple para facilitar el uso de los usuarios, robusto para garantizar la seguridad de nuestros clientes y eficiente al optimizar la consulta y administración de los datos.
                         </p>
                         <div class="nav_account">
                           <a href="#contacto" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-green">
@@ -543,320 +662,169 @@
         </section>
         <!-- End.Dashboard BeePro -->
 
-        <!-- Start Tabla de precios -->
-        <section class="pricing_section padding-py-12 margin-b-12" id="precio">
-          <div class="container">
-            <div class="row justify-content-md-center">
-              <div class="col-md-8 col-lg-6 text-center">
-                <div class="title_sections">
+        <!-- Precios -->
+        <section class="pricing_section options_pricing pricing_demo2 padding-t-12 bg-white position-relative z-index-3"
+         id="precio">
+         <div class="container">
+           <div class="blocks_pricing">
+             <div class="row">
+               <div class="col-md-8 col-lg-3 my-auto mr-auto">
+                 <div class="title_sections">
+                   <div class="before_title">
+                     <span>Planes perfectos</span>
+                     <span>para ti</span>
+                   </div>
+                   <h2>Adaptables a tus necesidades</h2>
+                 </div>
+               </div>
+               <!-- content_tabs -->
+               <div class="tab-content" id="pills-tabContent">
+                 <div class="tab-pane fade show active" id="pills-month" role="tabpanel"
+                   aria-labelledby="pills-month-tab">
+                   <div class="col-12">
+                     <div class="row no-gutters">
+                       <div class="col-md-4">
+                         <div class="item__price">
+                           <h4 class="name_p">Estándar</h4>
+                           <a href="#" class="btn effect-letter rounded-8 btn_md_primary btn_tryit">
+                              Cotizar</a>
+                         </div>
+                       </div>
+                       <div class="col-md-4">
+                         <div class="item__price is_best">
+                           <h4 class="name_p">Avanzado</h4>
+                           <a href="#" class="btn effect-letter rounded-8 btn_md_primary btn_tryit">
+                              Cotizar</a>
+                         </div>
+                       </div>
+                       <div class="col-md-4">
+                         <div class="item__price">
+                           <h4 class="name_p">Profesional</h4>
+                           <a href="#" class="btn effect-letter rounded-8 btn_md_primary btn_tryit">Cotizar</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+             <!-- pricing table  -->
+             <div class="table_pricing">
+               <div class="row">
+                 <div class="col-12">
+                   <div class="table-responsive">
+                     <label>Tabla de benefícios</label>
+                     <table class="table table-borderless">
+                       <tbody>
+                         <tr>
+                           <td>Control de Visitas</td>
+                           <td>
+                            <div class="check_ico">
+                              <i class="tio checkmark_circle_outlined"></i>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="check_ico">
+                              <i class="tio checkmark_circle_outlined"></i>
+                            </div>
+                          </td>
+                          <td>
+                            <div class="check_ico">
+                              <i class="tio checkmark_circle_outlined"></i>
+                            </div>
+                          </td>
+                         </tr>
 
-                  <h2>Planes perfectos para ti</h2>
-                  <p>Planes mensuales, adaptables a tus necesidades.</p>
+                         <tr>
+                           <td>
+                            Lista Blanca
+                           </td>
+                           <td></td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i> <span></span>
+                             </div>
+                           </td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i> <span></span>
+                             </div>
+                           </td>
+                         </tr>
 
-                  <!-- toggle switch -->
-                  <div class="d-none toggle_switch margin-t-4">
-                    <!-- toggle -->
-                    <label class="toggler toggler--is-active" id="filt-monthly">Mensual</label>
+                         <tr>
+                           <td>Lista Negra</td>
+                           <td></td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i>
+                             </div>
+                           </td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i>
+                             </div>
+                           </td>
+                         </tr>
 
-                    <div class="toggle">
-                      <input type="checkbox" id="switcher" class="check" />
-                      <b class="b switch"></b>
-                    </div>
+                         <tr>
+                           <td>Aviso vía eMail</td>
+                           <td></td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i>
+                             </div>
+                           </td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i>
+                             </div>
+                           </td>
+                         </tr>
 
-                    <div class="d-inline-block yearly">
-                      <label class="toggler" id="filt-yearly">Anual</label>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                         <tr>
+                           <td>Tickets Invitacion</td>
+                           <td></td>
+                           <td></td>
+                           <td>
+                             <div class="check_ico">
+                               <i class="tio checkmark_circle_outlined"></i>
+                             </div>
+                           </td>
+                         </tr>
 
-            <!--Pack Por Mes-->
-            <div class="blocks_pricing" id="monthly">
-              <div class="row justify-content-center">
-                <!--Pack Emprendedor-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price">
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/partying_face.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Emprendedor</h4>
-                    <div class="number">
-                      <span class="n_price">10</span>
-                      <span class="coins">$</span>
-                      <span class="d-block per"></span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para pequeños negocios de <br> 5 a 10 empleados.
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de Visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          10 Registros por día
-                        </li>
-                        <li class="list-group-item c-gray">
-                          <i class="tio clear_circle_outlined c-gray"></i>
-                          Bee<span class="c-gray">Scan</span>
-                        </li>
-                        <li class="list-group-item c-gray">
-                          <i class="tio clear_circle_outlined c-gray"></i>
-                          Bee<span class="c-gray">Pass</span>
-                        </li>
-                        <li class="list-group-item c-gray">
-                          <i class="tio clear_circle_outlined c-gray"></i>
-                          Equipamiento*
-                        </li>
-                      </ul>
-                      <button type="button" data-toggle="modal" data-target="#mdConctacto" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                         <tr>
+                          <td>Notificaciones Push</td>
+                          <td></td>
+                          <td></td>
+                          <td>
+                            <div class="check_ico">
+                              <i class="tio checkmark_circle_outlined"></i>
+                            </div>
+                          </td>
+                        </tr>
 
-                <!--Pack Empresarial-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price popular">
-                    <img class="icon_popular" src="assets/img/popular.svg" />
+                        <tr>
+                          <td>Reportes automáticos</td>
+                          <td></td>
+                          <td></td>
+                          <td>
+                            <div class="check_ico">
+                              <i class="tio checkmark_circle_outlined"></i>
+                            </div>
+                          </td>
+                        </tr>
 
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/nerd_face.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Empresarial</h4>
-                    <div class="number">
-                      <span class="n_price">60</span>
-                      <span class="coins">$</span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para empresas grandes con variedad de áreas o departamentos.
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          50 Registros diarios
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Scan</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Pass</span>
-                        </li>
-                        <li class="list-group-item c-gray">
-                          <i class="tio clear_circle_outlined c-gray"></i>
-                          Equipamiento*
-                        </li>
-                      </ul>
-                      <button 
-                        type="button"
-                        data-toggle="modal" data-target="#mdConctacto"
-                        class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-green">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <!--Pack Corporativo-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price">
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/smiling_face_with_sunglasses.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Ilimitado</h4>
-                    <div class="number">
-                      <span class="n_price">100</span>
-                      <span class="coins">$</span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para plantas, fabricas y grandes empresas.
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Registros Ilimitados
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Scan</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Pass</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Equipamiento*
-                        </li>
-                      </ul>
-                      <button 
-                        type="button"
-                        data-toggle="modal" data-target="#mdConctacto"
-                        class="btn scale effect-letter rounded-pill btn_md_primary c-white bg-green">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!--Pack Por Año-->
-            <div class="blocks_pricing hide" id="yearly">
-              <div class="row justify-content-center">
-                <!--Pack Emprendedor-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price">
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/partying_face.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Emprendedor</h4>
-                    <div class="number">
-                      <span class="n_price">100</span>
-                      <span class="coins">$</span>
-                      <span class="d-block per"></span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para pequeños negocios de <br> 5 a 10 empleados
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de Visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          10 Registros por día
-                        </li>
-                      </ul>
-                      <button type="button" class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-blue">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <!--Pack Empresarial-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price popular">
-                    <img class="icon_popular" src="assets/img/popular.svg" />
-
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/nerd_face.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Empresarial</h4>
-                    <div class="number">
-                      <span class="n_price">600</span>
-                      <span class="coins">$</span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para empresas grandes con variedad de áreas o departamentos
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Scan</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Pro</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          50 Registros diarios
-                        </li>
-                      </ul>
-                      <button type="button"
-                        class="btn effect-letter scale rounded-pill btn_md_primary c-white bg-green">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-
-                <!--Pack Corporativo-->
-                <div class="col-md-6 col-lg-4">
-                  <div class="item__price">
-                    <div class="logo_price">
-                      <div class="icon_gif">
-                        <img class="gif" src="assets/img/gif/smiling_face_with_sunglasses.gif" />
-                      </div>
-                    </div>
-                    <h4 class="name_p">Corporativo</h4>
-                    <div class="number">
-                      <span class="n_price">1000+</span>
-                      <span class="coins">$</span>
-                    </div>
-                    <p class="info_price">
-                      Ideal para plantas, fabricas y grandes empresas, que requieran instalación de equipos
-                    </p>
-                    <div class="feature_price">
-                      <ul class="list-group">
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Control de visitas
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Scan</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Bee<span class="c-green2">Pro</span>
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          100+ Registros diarios
-                        </li>
-                        <li class="list-group-item">
-                          <i class="tio checkmark_circle_outlined"></i>
-                          Equipamiento*
-                        </li>
-                      </ul>
-                      <button type="button"
-                        class="btn scale effect-letter rounded-pill btn_md_primary c-white bg-green">
-                        Solicitar
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+                       </tbody>
+                     </table>
+                   </div>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </div>
         </section>
-        <!-- End.Tabla de precios  -->
+        <!-- End Start Precios -->
 
         <!-- Start Servicios Especiales -->
         <section class="integration__logo padding-t-12">
@@ -868,7 +836,7 @@
                     <span class="c-green2">Un sistema que crece</span>
                   </div>
                   <h2>Con sus clientes</h2>
-                  <p>Contamos con un equipo de profesionales dispuestos a adaptar nuestro sistema a tus necesidades, eso incluye el desarrollo de nuevos módulos o la integración de sistemas</p>
+                  <p>Contamos con un equipo de profesionales dispuestos a adaptar nuestro sistema a tus necesidades. Esto incluye el desarrollo de nuevos módulos o la integración de sistemas.</p>
 
                   <!-- Principio del widget de enlace de Calendly -->
                   <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -909,41 +877,51 @@
         </section>
         <!-- End. Servicios Especiales -->
 
-        <!-- Start Tabs Service -->
-        <section class="tabs_works tabs_service padding-t-12" id="servicios">
+        <!-- informacion complementaria sobre servicios -->
+        <section class="tabs_works tabs_service padding-t-12" id="servicios" style="margin-top: 80px;">
           <div class="container">
-            <!-- Start Tabs -->
+            <!-- Tabs -->
             <div class="row">
-              <div class="col-md-10 col-lg-4">
-                <div class="title_sections margin-b-6">
+              <div class="col-md-8 col-lg-6">
+                <div class="title_sections">
                   <div class="before_title">
                     <span>Nuestros</span>
-                    <span class="c-green">Servicios</span>
+                    <span>Servicios</span>
                   </div>
-                  <h2 class="c-dark">
-                    ¡Y sí! tenemos mucho más que ofrecer
-                  </h2>
+                  <h2 class="c-dark">¡Y sí! tenemos mucho que ofrecer.</h2>
                   <p class="c-gray">
-                    Ofrecemos servicios que te facilitan el control de acceso en su totalidad.
+                    Ofrecemos servicios que te facilitan el control <br> de acceso en su totalidad.
                   </p>
                 </div>
-
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-10 col-lg-4">
                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                   <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
-                    <h4 class="margin-b-2 font-s-18">Control de acceso movil:</h4>
+                    <h4 class="margin-b-2 font-s-18">Control de visitas</h4>
+                    <p>Para gestionar y visualizar el listado de visitas que ingresan a tu empresa en tiempo real.</p>
+                  </a>
+                  <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile2" role="tab" aria-controls="v-pills-profile2" aria-selected="false">
+                    <h4 class="margin-b-2 font-s-18">Acceso vehicular</h4>
+                    <p>Vehicular y peatonal, ideal para centros industriales con altos estándares de seguridad.</p>
                   </a>
                   <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
-                    <h4 class="margin-b-2 font-s-18">Control de Acceso de escritorio:</h4>
+                    <h4 class="margin-b-2 font-s-18">Personal externo</h4>
+                    <p>Contratistas, proveedores o personal de outsourcing. Tendrás el control de acceso de todo el personal.  </p>
                   </a>
                 </div>
               </div>
               <div class="col-md-10 col-lg-7 ml-auto mt-md-auto">
                 <div class="tab-content img--tabs slide_bottom" id="v-pills-tabContent">
                   <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <img class="--img" src="assets/img/41014.png" alt="" />
+                    <img src="assets/img/dash.png" width="80%" alt="" />
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile2" role="tabpanel" aria-labelledby="v-pills-profile-tab2">
+                    <img src="assets/img/parking.png" width="80%" alt="" />
                   </div>
                   <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    <img class="--img" src="assets/img/9701.png" alt="" />
+                    <img src="assets/img/9701.png" width="80%" alt="" />
                   </div>
                 </div>
               </div>
@@ -952,136 +930,171 @@
             <!-- End Tabs -->
           </div>
         </section>
-        <!-- End. Tabs Service -->
+        <!-- End. informacion complementaria sobre servicios -->
 
-        <!-- Start blog_slider -->
-        <section class="section__stories blog_slider mt-5">
+
+        <!-- Start section__stories -->
+        <section class="section__stories blog_slider padding-t-12">
           <div class="container">
             <div class="row justify-content-center">
               <div class="col-lg-12">
-                <div class="swip__stories">
-                  <!-- Swiper -->
+                
+                  <!-- Proyectos -->
                   <div class="swiper-container blog-slider">
                     <div class="title_sections_inner">
                       <h2>Nuestros proyectos</h2>
-
                     </div>
-                    <p>Nuestra trayectoria está repleta de logros que garantizan nuestro compromiso contigo y con tu empresa.</p>
-                    <div class="swiper-wrapper">
+                    <div class="row">
 
-                      <div class="swiper-slide">
+                      <!-- Andina Coca Cola -->
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                         <div class="grid_blog_avatar">
                           <div class="cover_blog">
-                            <img src="assets/img/charity/002.jpg" alt="">
-                          </div>
-                          <div class="body_blog">
-                            <a href="plantilla/main-file/rakon-template/html/about/about.html">
-                              <div class="person media">
-                                <img src="assets/img/persons/01.png" alt="">
-                                <div class="media-body">
-                                  <div class="txt">
-                                    <h3>Nombre cliente</h3>
-                                    <time>Chile</time>
-                                  </div>
+                            <!-- slider -->
+                            <div id="andina" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#andina" data-slide-to="0" class="active"></li>
+                                <li data-target="#andina" data-slide-to="1"></li>
+                                <li data-target="#andina" data-slide-to="2"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Andina1.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Andina2.jpeg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Andina3.jpeg" alt="third slide">
                                 </div>
                               </div>
-                            </a>
-                            <a href="plantilla/main-file/rakon-template/html/about/about.html" class="link_blog">
+                              <a class="carousel-control-prev" href="#andina" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-top: 180px;" ></span>
+                                <span class="sr-only">Pre</span>
+                              </a>
+                              <a class="carousel-control-next" href="#andina" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true" style="margin-top: 180px;"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                            <!-- /.slider -->
+                          </div>
+                          <div class="body_blog">
                               <h4 class="title_blog">
-                                Nombre del proyecto
+                                Andina - Coca Cola
                               </h4>
                               <p class="short_desc">
-                                Descrioción del proyecto.
+                                Chile
                               </p>
-                            </a>
                           </div>
                         </div>
-                        <!-- End grid_blog_avatar -->
                       </div>
-
-                      <div class="swiper-slide">
+                      <!-- Douc Uc -->
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
                         <div class="grid_blog_avatar">
                           <div class="cover_blog">
-                            <img src="assets/img/inner/0654.png" alt="">
-                          </div>
-                          <div class="body_blog">
-                            <a href="plantilla/main-file/rakon-template/html/about/about-2.html">
-                              <div class="person media">
-                                <img src="assets/img/persons/01.png" alt="">
-                                <div class="media-body">
-                                  <div class="txt">
-                                    <h3>Nombre cliente</h3>
-                                    <time>Perú</time>
-                                  </div>
+                            <!-- slider -->
+                            <div id="douc-uc" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#douc-uc" data-slide-to="0" class="active"></li>
+                                <li data-target="#douc-uc" data-slide-to="1"></li>
+                                <li data-target="#douc-uc" data-slide-to="2"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Duoc1.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Duoc2.jpeg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Duoc3.jpeg" alt="third slide">
                                 </div>
                               </div>
-                            </a>
-                            <a href="plantilla/main-file/rakon-template/html/about/about-2.html" class="link_blog">
+                              <a class="carousel-control-prev" href="#douc-uc" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-top: 180px;" ></span>
+                                <span class="sr-only">Pre</span>
+                              </a>
+                              <a class="carousel-control-next" href="#douc-uc" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true" style="margin-top: 180px;"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+                            <!-- /.slider -->
+                          </div>
+                          <div class="body_blog">
                               <h4 class="title_blog">
-                                Nombre del proyecto
+                                Duoc Uc
                               </h4>
                               <p class="short_desc">
-                                Descrioción del proyecto.
+                                Chile
                               </p>
-                            </a>
                           </div>
                         </div>
-                        <!-- End grid_blog_avatar -->
+                      </div>
+                      <!-- Club de Golf -->
+                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0">
+                        <div class="grid_blog_avatar">
+
+                          <div class="cover_blog">
+                            <!-- slider -->
+                            <div id="golf" class="carousel slide" data-ride="carousel">
+                              <ol class="carousel-indicators">
+                                <li data-target="#golf" data-slide-to="0" class="active"></li>
+                                <li data-target="#golf" data-slide-to="1"></li>
+                                <li data-target="#golf" data-slide-to="2"></li>
+                              </ol>
+                              <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Golf1.jpeg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Golf2.jpeg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                  <img class="d-block w-100" src="assets/img/proyectos/Golf3.jpeg" alt="third slide">
+                                </div>
+                              </div>
+                              <a class="carousel-control-prev" href="#golf" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true" style="margin-top: 180px;" ></span>
+                                <span class="sr-only">Pre</span>
+                              </a>
+                              <a class="carousel-control-next" href="#golf" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true" style="margin-top: 180px;"></span>
+                                <span class="sr-only">Next</span>
+                              </a>
+                            </div>
+
+                          </div>
+                          <div class="body_blog">
+                              <h4 class="title_blog">
+                                Club de Golf
+                              </h4>
+                              <p class="short_desc">
+                                Chile
+                              </p>
+                          </div>
+                        </div>
                       </div>
 
-                      <div class="swiper-slide">
-                        <div class="grid_blog_avatar">
-                          <div class="cover_blog">
-                            <img src="assets/img/inner/0654.jpg" alt="">
-                          </div>
-                          <div class="body_blog">
-                            <a href="plantilla/main-file/rakon-template/html/about/about-3.html">
-                              <div class="person media">
-                                <img src="assets/img/persons/01.png" alt="">
-                                <div class="media-body">
-                                  <div class="txt">
-                                    <h3>Nombre cliente</h3>
-                                    <time>Chile</time>
-                                  </div>
-                                </div>
-                              </div>
-                            </a>
-                            <a href="plantilla/main-file/rakon-template/html/about/about-3.html" class="link_blog">
-                              <h4 class="title_blog">
-                                Nombre del proyecto
-                              </h4>
-                              <p class="short_desc">
-                                Descrioción del proyecto.
-                              </p>
-                            </a>
-                          </div>
-                        </div>
-                        <!-- End grid_blog_avatar -->
-                      </div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next">
-                      <i class="tio chevron_right"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="tio chevron_left"></i>
                     </div>
 
                   </div>
 
-                </div>
+                
               </div>
             </div>
 
           </div>
         </section>
-        <!-- End. blog_slider -->
-        
+        <!-- End. section__stories -->
+
+
       </main>
     </div>
     <!-- [id] content -->
 
-    <!-- Start Escribenos -->
+    <!-- Escribenos -->
     <section class="default_footer footer_short padding-t-12 pb-5" id="contacto">
       <div class="container">
         <div class="row">
@@ -1089,7 +1102,7 @@
             <div class="title_sections margin-b-2">
               <h2>¿Listos para trabajar juntos?</h2>
               <p>
-                Nuestro trabajo es brindarte seguridad y confianza, así que si aún tienes alguna duda sobre nosotros o nuestros servicios, contáctanos y estaremos felices de resolverlas.
+                Nuestro trabajo es brindarte seguridad y confianza, así que si aún tienes alguna duda sobre nosotros o nuestros servicios, contáctanos y estaremos felices de atenderte.
               </p>
             </div>
             <div class="dashed-line margin-b-2"></div>
@@ -1157,11 +1170,11 @@
     </section>
     <!-- End Escribenos -->
 
-    <!-- Start footer -->
+    <!-- footer -->
     <footer class="default_footer footer_short dark padding-t-12" id="contacto">
       <div class="container">
         <img class="shape_overlay" src="assets/img/shape-lines.svg" />
-        <!-- Start footer -->
+        <!-- footer -->
         <div class="defalut-footer padding-b-3">
           <div class="row">
             <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -1237,8 +1250,8 @@
               </div>
             </div>
           </div>
-          <div class="col-12 text-center padding-t-6">
-            <div class="social--media mb-4">
+          <div class="col-12 text-center">
+            <div class="social--media mb-4" style="margin-top: 0px;">
               <a href="https://www.instagram.com/beepro.cl/" class="btn so-link" target="_blank">
                 <i class="tio instagram"></i>
               </a>
@@ -1263,185 +1276,6 @@
     </footer>
     <!-- End Footer -->
 
-    <!-- Form Create account -->
-    <div class="modal mdllaccount fade bd-example-modal-lg" id="mdllLogin" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-
-        <div class="box--signup">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                  <i class="tio clear"></i>
-                </button>
-              </div>
-              <div class="modal-body">
-                <div class="form_account">
-                  <div class="form-row">
-                    <div class="col-12">
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="form-group">
-                            <label>Correo</label>
-                            <input type="email" class="form-control" placeholder="Correo" />
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <div class="form-group mb-1 --password" id="show_hide_password">
-                            <label>Contraseña</label>
-                            <div class="input-group">
-                              <input type="password" class="form-control" data-toggle="password" placeholder="••••••"
-                                required="" />
-                              <div class="input-group-prepend hide_show">
-                                <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
-                              </div>
-                            </div>
-                          </div>
-    
-                          <a href="https://sistema.beepro.cl/recuperar-contrase%C3%B1a" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">¿Olvidó su contraseña?</a>
-                        </div>
-                        <div class="col-12 mt-4">
-                          <a href="#" class="btn rounded-6 btn_xl_primary btn_login bg-green2">Ingresar</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      
-    </div>
-
-
-    <!-- Login Modal  login Movil -->
-    <div class="modal mdllaccount fade" id="mdllLogin-movil" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <i class="tio clear"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="form_account">
-              <div class="form-row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <label>Correo</label>
-                        <input type="email" class="form-control" placeholder="Correo" />
-                      </div>
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group mb-1 --password" id="show_hide_password">
-                        <label>Contraseña</label>
-                        <div class="input-group">
-                          <input type="password" class="form-control" data-toggle="password" placeholder="••••••"
-                            required="" />
-                          <div class="input-group-prepend hide_show">
-                            <a href=""><span class="input-group-text tio hidden_outlined"></span></a>
-                          </div>
-                        </div>
-                      </div>
-
-                      <a href="https://sistema.beepro.cl/recuperar-contrase%C3%B1a" class="btn mt-2 font-s-12 font-w-400 c-gray p-0">¿Olvidó su contraseña?</a>
-                    </div>
-                    <div class="col-12 mt-4">
-                      <a href="#" class="btn rounded-6 btn_xl_primary btn_login bg-green2">Ingresar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End. Modal login viejo -->
-
-    <!-- Modal Contacto -->
-    <div class="modal fade" id="mdConctacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-      aria-hidden="true">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <i class="tio clear"></i>
-            </button>
-          </div>
-          <div class="modal-body">
-            <div class="form_account">
-              <div class="form-row">
-                <div class="col-12">
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="title_sections_inner margin-b-1">
-                        <h4>Datos de contacto</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row mb-2">
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label>Nombre completo</label>
-                        <input type="text" class="form-control" placeholder="Nombre completo" />
-                      </div>
-                    </div>
-
-                    <div class="col-md-6">
-                      <div class="form-group">
-                        <label>Teléfono</label>
-                        <input type="text" class="form-control" placeholder="Teléfono" />
-                      </div>
-                    </div>
-                    
-                    <div class="col-12">
-                      <div class="form-group">
-                        <label>Correo electrónico</label>
-                        <input type="email" class="form-control" placeholder="tucorreo@ejemplo.com" />
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-12">
-                      <div class="title_sections_inner margin-b-1">
-                        <h4>Datos de la entidad</h4>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="row">
-                    <div class="col-lg-4">
-                      <div class="form-group">
-                        <label>RUT</label>
-                        <input type="text" class="form-control" placeholder="RUT" />
-                      </div>
-                    </div>
-                    <div class="col-lg-4">
-                      <div class="form-group">
-                        <label>Datos de la entidad</label>
-                        <input type="text" class="form-control" placeholder="Nombre de la Empresa" />
-                      </div>
-                    </div>
-                    <div class="col-lg-4 mt-4 text-center" style="margin-top: 5px;">
-                      <a href="#" class="btn rounded-6 btn_xl_primary btn_login bg-green2">Enviar</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End. Modal Contacto-->
-
     <!-- Back to top with progress indicator-->
     <div class="prgoress_indicator">
       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -1449,22 +1283,7 @@
       </svg>
     </div>
 
-    <!-- Tosts -->
-    <div aria-live="polite" aria-atomic="true" class="d-none justify-content-center align-items-center">
-      <div class="toast toast_demo" id="myTost" role="alert" aria-live="assertive" aria-atomic="true"
-        data-animation="true" data-autohide="false">
-        <div class="toast-body">
-          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
-            <i class="tio clear"></i>
-          </button>
-          <h5>Hi there 👋</h5>
-          <p>We are glad you joined us <a href="#">Join us</a></p>
-        </div>
-      </div>
-    </div>
-    <!-- End. Toasts -->
-
-    <!-- Start Section Loader -->
+    <!-- Section Loader -->
     <section class="loading_overlay">
       <div class="loader_logo">
         <img class="logo" src="assets/img/logo.svg" />
@@ -1521,6 +1340,10 @@
   <script src="assets/js/vendor/aos.js" type="text/javascript"></script>
   <!-- main file -->
   <script src="assets/js/main.js" type="text/javascript"></script>
+  <!-- Carrusel -->
+  <script src="assets/js/owl.carousel.min.js" type="text/javascript"></script>
+  <script src="assets/js/multiple-carousel.js" type="text/javascript"></script>
+ 
   <!-- Validacion de formulario -->
   <script src="assets/js/formulario.js" type="text/javascript"></script>
 

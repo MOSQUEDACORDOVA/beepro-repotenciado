@@ -7612,7 +7612,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .feature__app .item__app .select_app::before {
   content: "";
-  height: 435px;
+  /*height: 435px;*/
+  height: 280px;
   width: 435px;
   position: absolute;
   bottom: -2px;
@@ -7636,7 +7637,8 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
 }
 .feature__app .item__app .select_app .app__mobile .application_img {
   width: 100%;
-  height: 728px;
+  /*height: 728px;*/
+  height: 590px;
   object-fit: contain;
 }
 .feature__app .item__app .select_app .app__mobile::before {
@@ -8899,7 +8901,8 @@ software_web
   font-size: 25px;
   font-weight: 600;
   color: #081A0B;
-  margin-bottom: 1.875rem;
+  /*margin-bottom: 1.875rem;*/
+  margin-bottom: 1.5rem;
 }
 .pricing_section .blocks_pricing .item__price .number {
   margin-bottom: 1.875rem;
@@ -9112,7 +9115,7 @@ software_web
 .options_pricing .blocks_pricing .item__price .btn_tryit {
   border: 1px solid #edeef1;
   color: #39b54a;
-  margin-top: 1.5rem;
+ /* margin-top: 1.5rem; */
 }
 .options_pricing .blocks_pricing .item__price.is_best {
   background-color: #39b54a !important;
@@ -9168,15 +9171,18 @@ software_web
 }
 .options_pricing .table_pricing .table tbody tr td:first-child {
   text-align: left;
-  width: 35%;
+  /*width: 35%;*/
+  width: 50%;
 }
 .options_pricing .table_pricing .table tbody tr:last-of-type td {
   border-bottom: 0;
   padding-bottom: 0;
 }
 .options_pricing .table_pricing .table .check_ico {
-  width: 50px;
-  height: 50px;
+  /*width: 50px;*/
+  /*height: 50px;*/
+  width: 35px;
+  height: 35px;
   border-radius: 20px;
   background-color: rgba(58, 177, 75, 0.1);
   display: inline-flex;
