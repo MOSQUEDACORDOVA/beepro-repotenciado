@@ -7618,6 +7618,15 @@ header .navbar .navbar-collapse .nav_account.btn_demo3 .btn_sm_primary {
   position: absolute;
   bottom: -2px;
   z-index: 2;
+}
+.feature__app .item__app .dif::before {
+  content: "";
+  /*height: 435px;*/
+  height: 280px;
+  width: 435px;
+  position: absolute;
+  bottom: -2px;
+  z-index: 2;
   background-image: url("../img/software/gradient.png");
   background-repeat: no-repeat;
 }
