@@ -15,51 +15,13 @@ template.
 @Developer URL: https://dribbble.com/HasanSib
 /*===================================================================== */
 
-/*-----------------------------
-  Slider SOYNOVAUNO
------------------------------*/
-@keyframes scroll {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(calc(-250px * 7));
-  }
+.accountbg {
+    background: url(../img/tic-tac-toe.png);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
 }
-.slider {
-  height: 50px;
-  margin: auto;
-  overflow: hidden;
-  position: relative;
-}
-.slider::before, .slider::after {
-  background: linear-gradient(to right, white 0%, rgba(255, 255, 255, 0) 100%);
-  content: "";
-  height: 50px;
-  position: absolute;
-  width: 200px;
-  z-index: 2;
-}
-.slider::after {
-  right: 0;
-  top: 0;
-  transform: rotateZ(180deg);
-}
-.slider::before {
-  left: 0;
-  top: 0;
-}
-.slider .slide-track {
-  -webkit-animation: scroll 40s linear infinite;
-          animation: scroll 40s linear infinite;
-  display: flex;
-  width: calc(250px * 14);
-}
-.slider .slide {
-  height: 50px;
-  width: 250px;
-}
-
 /*
     CSS Table of Sections
     --------------------------
@@ -11549,16 +11511,18 @@ software_web
   signup_full
 -----------------------------*/
 .signup_full {
-  display: -ms-grid;
+/*  display: -ms-grid;
   display: grid;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../img/inner/01.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
+  background-size: cover;*/
+  background-image: url("../img/tic-tac-toe.png");
+  position: absolute;
   width: 100%;
   height: 100%;
-  position: relative;
+  top: 0;
+
   /*-----------------------------
   signup_two
 -----------------------------*/
@@ -11628,7 +11592,7 @@ software_web
   display: inline-block;
 }
 .signup_full .item_brand a img {
-  width: 27px;
+  height: 50px;
 }
 .signup_full .item_footer {
   padding-bottom: 1.874rem;
